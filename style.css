@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6D1F2
+}
+
+.heading { 
+}
+
+.scoreContainer { 
+    background-color: #B19CD8;
+    border-color: red;
+    border-width: 10px;
+    text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#rollBtn {
+    font-size: 25px;
+    color: purple;
+    background-color: plum;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none;
+}
+
+#dice1, #dice2, #dice3, #dice4, #dice5, #dice6 {
+    width: 250px;
+}
